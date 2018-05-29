@@ -1,7 +1,7 @@
 #Set-PowerCLIConfiguration -InvalidCertificateAction Ignore
 
-#Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false
-Set-PowerCLIConfiguration -InvalidCertificationAction Ignore
+Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $FALSE
+#Set-PowerCLIConfiguration -InvalidCertificationAction Ignore
 
 # Staging vcenter 172.16.168.21
 #connect-viserver -server 172.16.168.21 -WarningAction SilentlyContinue
